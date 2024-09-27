@@ -22,6 +22,7 @@
   "dependencies": {
     "@mantine/core": "7.13.0",
     "@mantine/hooks": "7.13.0",
+    "axios": "^1.7.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-router-dom": "^6.26.1"
@@ -47,6 +48,7 @@
     "eslint-config-mantine": "^4.0.3",
     "eslint-plugin-jsx-a11y": "^6.10.0",
     "eslint-plugin-react": "^7.35.2",
+    "generate-react-cli": "^8.4.8",
     "identity-obj-proxy": "^3.0.0",
     "jsdom": "^25.0.0",
     "postcss": "^8.4.45",
