@@ -17,6 +17,21 @@
         "story": "configuration/react_templates/component/TemplateName.stories.tsx"
       }
     },
+    "page": {
+      "path": "src/pages",
+      "withStyle": false,
+      "withTest": true,
+      "withStory": true,
+      "withIndex": true,
+      "withLazy": false,
+      "flat": false,
+      "customTemplates": {
+        "index": "configuration/react_templates/page/index.tsx",
+        "component": "configuration/react_templates/page/TemplateName.tsx",
+        "test": "configuration/react_templates/page/TemplateName.test.tsx",
+        "story": "configuration/react_templates/page/TemplateName.stories.tsx"
+      }
+    },
     "util": {
       "path": "src/utils",
       "withLazy": false,

@@ -38,6 +38,7 @@ This template comes with the following features:
 | Command                                                  | Description                                        |
 |----------------------------------------------------------|----------------------------------------------------|
 | `yarn install`                                           | Install necessary npm libs                         |
+| `yarn add NewDependency`                                 | Add a new dependency                               |
 | `yarn run storybook`                                     | Start storybook                                    |
 | `yarn run test-storybook`                                | Test storybook                                     |
 | `yarn test`                                              | Run all unit test                                  |
@@ -47,4 +48,5 @@ This template comes with the following features:
 | `yarn run lint`                                          | Lint the project                                   |
 | `yarn run lint:fix`                                      | Fix the project's ES Lint                          |
 | `npx generate-react-cli component XxxYyyZzz`             | Generate a react component.                        |
+| `npx generate-react-cli component --type=page XxxYyyZzz` | Generate a react page.                             |
 | `npx generate-react-cli component --type=util XxxYyyZzz` | Generate a react util.                             |
